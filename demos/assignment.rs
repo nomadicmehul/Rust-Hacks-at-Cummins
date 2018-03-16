@@ -31,8 +31,8 @@ fn main() {
     println!("Bool value is {}", bool_val);
 
     // Another way of variable assigning
-    let (f_name, l_name) = ("viki", "d");
-    println!("First name {0} and last name {1}", f_name, l_name);
+    let (f_name, l_name) = ("Mehul", "Patel");
+    println!("First Name : {0} and Last Name : {1}", f_name, l_name);
 
     // Prints the first 2 numbers after the decimal points
     println!("{:.2}", 1.2345);
@@ -54,8 +54,12 @@ fn main() {
     // Assigning datatypes and mathematical Operations
     let neg_4 = -4i32;
     println!("abs(-4) = {}", neg_4.abs());
-    println!("abs(-4) = {}", neg_4.pow(2));
-    println!("round(1.2345) = {}", 1.2354f64.round());
-    println!("ceil(1.2345) = {}", 1.2345f64.ceil());
-    print!("sin 3.14 = {}", 3.14f64.sin());
+    println!("4 ^ 6 = {}", 4i32.pow(6));
+    println!("sqrt 9 = {}", 9f64.sqrt());
+    println!("cbrt 9 = {}", 27f64.cbrt());
+    println!("e ^ 2 = {}", 2f64.exp ());
+    println!("log(2) = {}", 2f64.ln());
+    println!("log10(2) = {}", 2f64.log10());
+    println!("round(1.45) = {}", 1.45f64.round());
+    println!("ceil(1.45) = {}", 1.45f64.ceil());   
 }
